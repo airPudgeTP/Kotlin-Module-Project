@@ -11,7 +11,6 @@ class Menu(private val title: String, private val input: ConsoleInput) {
         items.add(MenuItem(name, null))
     }
 
-    // Возвращает false, когда пользователь выбрал выход из этого меню.
     fun show(): Boolean {
         while (true) {
             println()
